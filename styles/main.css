@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+@import 'colors.css';
+@import 'layout.css';
+@import 'components.css';
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: var(--navy);
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+h1 {
+  color: var(--navy);
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+p {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
